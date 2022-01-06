@@ -1,11 +1,148 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background: rgb(255, 255, 255);
+}
+p{
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+h2{
+    color: #000;
+}
 .container{
     display: flex;
+    margin: 50px 10%;
+    
 }
 .box img{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 .person-img{
     width: 250px;
+}
 
+.yellow{
+    color: rgb(226, 162, 109);
+}
+.container-main{
+    width: 70% auto;
+}
+/* top container start  */
+.btn{
+    margin-top: 20px;
+}
+.button{
+       background-color: rgb(224, 121, 90); 
+       border-radius: 2px;
+       padding: 5px 10px;
+       text-decoration: none;
+       color: rgb(231, 214, 214);
+
+       
+}
+
+.artical{
+    width: 40%;
+}
+.artical-top{
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 25px;
+}
+.left-margin{
+    margin-right: 5px;
+    height: 44px;
+    width: 3px;
+    margin-top: 6px;
+    background: rgb(151, 127, 214);
+}
+.images{
+    margin: auto;
+}
+.explore{
+    margin-top: 70px;
+}
+/* artical section start  */
+.taitle{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 35px;
+}.mission{
+    color: coral;
+    font-family: 'Cookie', cursive;
+
+    
+}
+.contant-1{
+    border-radius: 15px ;
+
+    background: rgba(225, 228, 231, 0.945);
+
+}
+.content-2{
+    border-radius: 15px;
+    background: rgb(204, 211, 206);
+    margin: 0px 20px;
+}
+.content-3{
+    border-radius: 15px;
+    background-color: rgb(191, 230, 197);
+}
+.box{
+    margin: 30px 30px 50px 30px;
+}
+.box h3{
+    margin: 15px 0px;
+}
+
+/* develop section start */
+.develop-img{
+    width: 350px;
+}
+
+.develop-content{
+    margin: 50px;
+}
+.develop-content h3{
+    margin: 10px 0px;
+}
+ p{
+color: rgb(99, 98, 92);
+}
+
+
+/* soccial area  */
+.social-aria h3{
+    text-align: center;
+    color: darkblue;
+}
+.social-link{
+    margin: auto;
+    background: rgb(240, 238, 234);
+    border-radius: 50%;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 5px 10px 2px 3px  rgb(212, 206, 206);
+}
+.social-link a {
+    padding: auto;
+    text-decoration: none;
+    color: rgb(28, 87, 124);
+    font-size: 25px;
+}
+.footer{
+    background: rgb(24, 22, 22);
+    height: 70px;
+    text-align: center;
+    color: white;
+
+}
+.footer h1{
+    font-family: 'Cookie', cursive;
+}
+.footer span{
+    color: rgb(228, 91, 91);
 }
